@@ -1,0 +1,10 @@
+[book]
+title = "whamm! (ฉบับภาษาไทย)"
+description = "แนะนำภาษา DSL ของ `whamm!` ฉบับภาษาไทย"
+authors = ["ahuoguo", "ejrgilbert", "wavid-b"]
+language = "th"
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/suradet-ps/whamm-th/tree/main/docs/src"
+edit-url-template = "https://github.com/suradet-ps/whamm-th/edit/main/docs/{path}"
