@@ -1,12 +1,12 @@
 ﻿# whamm-th
 
 ```
-██╗    ██╗██╗  ██╗ █████╗ ███╗   ███╗███╗   ███╗   ████████╗██╗  ██╗
-██║    ██║██║  ██║██╔══██╗████╗ ████║████╗ ████║   ╚══██╔══╝██║  ██║
-██║ █╗ ██║███████║███████║██╔████╔██║██╔████╔██║█████╗██║   ███████║
-██║███╗██║██╔══██║██╔══██║██║╚██╔╝██║██║╚██╔╝██║╚════╝██║   ██╔══██║
-╚███╔███╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║      ██║   ██║  ██║
- ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝      ╚═╝   ╚═╝  ╚═╝
+██╗    ██╗██╗  ██╗ █████╗ ███╗   ███╗███╗   ███╗         ████████╗██╗  ██╗
+██║    ██║██║  ██║██╔══██╗████╗ ████║████╗ ████║         ╚══██╔══╝██║  ██║
+██║ █╗ ██║███████║███████║██╔████╔██║██╔████╔██║   █████╗   ██║   ███████║
+██║███╗██║██╔══██║██╔══██║██║╚██╔╝██║██║╚██╔╝██║   ╚════╝   ██║   ██╔══██║
+╚███╔███╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║            ██║   ██║  ██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝            ╚═╝   ╚═╝  ╚═╝
 ```
 
 ---
@@ -26,7 +26,7 @@ file-for-file, and the license travels with the text. Built for the
 Thai-speaking student of Wasm instrumentation:
 [suradet-ps.github.io/whamm-th](https://suradet-ps.github.io/whamm-th/).
 
-| แปลครบ 41 บท ▣ | Glossary ▣ | ลิงก์ 285/285 ▣ | Build ผ่าน ▣ |
+| 41 chapters translated ▣ | Glossary ▣ | Links 285/285 ▣ | Build passing ▣ |
 |---|---|---|---|
 
 *v1.0.0 - translation, glossary, verification, and the static build
@@ -86,9 +86,9 @@ One stack, zero custom JS, several quiet helpers.
 - **Translates** - the complete book: introduction, getting started,
   17 syntax chapters, events, libraries, injection strategies, 3 example
   monitors, and the developer guide - Thai prose over untouched code.
-- **Glossaries** - `GLOSSARY.md` locks the vocabulary (instrumentation =
-  การทำอินสตรูเมนเทชัน, probe = โพรบ, predicate = เพรดิเคต, crate = เครต),
-  so chapter nine agrees with chapter two.
+- **Glossaries** - `GLOSSARY.md` locks the vocabulary (instrumentation,
+  probe, predicate, crate - one Thai spelling per term), so
+  chapter nine agrees with chapter two.
 - **Verifies** - `scripts/verify-translation.ps1` diffs every code block,
   heading level, and link target against upstream `whamm` - byte-exact or it
   does not pass, with the link-level upstream fixes printed on each run.
@@ -122,7 +122,7 @@ verifier is the conscience of the repo.
 **The ceremony of the heading** - heading levels are borrowed from the
 original and the text is Thai; Thai headings are read from the built HTML,
 written into the source, and re-verified - a guessed heading is a broken link
-waiting to happen (`ตัวช่วย` becomes `ตัวชวย` under mdbook's slug rules).
+waiting to happen (Thai tone marks are stripped under mdbook's slug rules).
 
 ---
 
@@ -152,8 +152,8 @@ report `ALL ANCHOR LINKS OK`.
 
 ```
   ─────────────────────────────────────────
-   ทุกโปรแกรมมีออปโคดแรกของมัน
-   ทุกหนังสือมีหน้าแรกของมัน
+   Every program has its first opcode
+   Every book has its first page
   ─────────────────────────────────────────
 ```
 
