@@ -22,10 +22,10 @@ Thai translation of the official `whamm!` book: 41 chapters built with
 mdbook, terminology locked by a single glossary, and every code block
 byte-identical to the original. The links are checked against the built
 book (285 anchors), the structure mirrors the upstream repo file-for-file,
-and the license travels with the text. Five upstream defects were repaired
-along the way - four broken links and one mislabeled heading - each one
-recorded in the verifier. Built for the Thai-speaking student of Wasm
-instrumentation:
+and the license travels with the text. Six upstream defects were repaired
+along the way - four broken links, one mislabeled heading, and one unclosed
+code span - each one recorded in the verifier. Built for the Thai-speaking
+student of Wasm instrumentation:
 [suradet-ps.github.io/whamm-th](https://suradet-ps.github.io/whamm-th/).
 
 | แปลครบ 41 บท ▣ | Glossary ▣ | ลิงก์ 285/285 ▣ | Build ผ่าน ▣ |

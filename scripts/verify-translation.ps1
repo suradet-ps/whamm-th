@@ -53,6 +53,9 @@ Write-Output "  Translation: $trans"
 #     (copy-paste from shared_vars.md); the translation titles it
 #     `ตัวแปร frame`. Heading text is not compared (only levels are), so this
 #     is recorded here for the sake of an honest diff.
+#   * intro/syntax/probes.md: upstream leaves the inline span "`event` and
+#     `mode." unclosed; the translation closes it. Inline code is not compared
+#     by this verifier (only fenced blocks are), so this is recorded here too.
 # ---------------------------------------------------------------------------
 $KnownLinkRewrites = @{
     'devs/intro.md' = @{
