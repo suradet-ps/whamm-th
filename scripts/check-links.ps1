@@ -1,5 +1,5 @@
 param(
-    [string]$BookDir = (Join-Path $PSScriptRoot '..\docs\book')
+    [string]$BookDir = (Join-Path $PSScriptRoot '../docs/book')
 )
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -30,7 +30,7 @@ foreach ($f in $files) {
             }
         } elseif ($href -like '*.html*') {
             $page = ($href -split '[?#]')[0]
-            $resolved = [System.IO.Path]::GetFullPath((Join-Path (Split-Path $f.FullName) ($page -replace '/', '\')))
+            $resolved = [System.IO.Path]::GetFullPath((Join-Path (Split-Path $f.FullName) ($page -replace '/', [System.IO.Path]::DirectorySeparatorChar)))
             if (-not (Test-Path -LiteralPath $resolved)) {
                 $broken += "$rel -> $href (file missing)"
                 continue

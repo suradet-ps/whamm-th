@@ -1,6 +1,6 @@
 param(
     [string]$Orig = '',
-    [string]$Trans = (Join-Path $PSScriptRoot '..\docs\src')
+    [string]$Trans = (Join-Path $PSScriptRoot '../docs/src')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -11,9 +11,9 @@ $trans = [System.IO.Path]::GetFullPath($Trans)
 
 if ([string]::IsNullOrWhiteSpace($Orig)) {
     $candidates = @(
-        (Join-Path $PSScriptRoot '..\..\whamm\docs\src'),
-        (Join-Path $PSScriptRoot '..\whamm\docs\src'),
-        (Join-Path (Get-Location) 'whamm\docs\src')
+        (Join-Path $PSScriptRoot '../../whamm/docs/src'),
+        (Join-Path $PSScriptRoot '../whamm/docs/src'),
+        (Join-Path (Get-Location) 'whamm/docs/src')
     )
     foreach ($cand in $candidates) {
         if (Test-Path -LiteralPath $cand) {
@@ -49,6 +49,10 @@ Write-Output "  Translation: $trans"
 #     `emit/emitting.md#parta-initgenerator`; the InitGenerator docs live in
 #     `emit/rewriting.md#1-initgenerator`. Only the file part is compared,
 #     the anchor itself is verified against the built book.
+#   * intro/syntax/frame_vars.md: upstream titles the page `shared Variables`
+#     (copy-paste from shared_vars.md); the translation titles it
+#     `ตัวแปร frame`. Heading text is not compared (only levels are), so this
+#     is recorded here for the sake of an honest diff.
 # ---------------------------------------------------------------------------
 $KnownLinkRewrites = @{
     'devs/intro.md' = @{
