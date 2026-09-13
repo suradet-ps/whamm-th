@@ -22,9 +22,10 @@ Thai translation of the official `whamm!` book: 41 chapters built with
 mdbook, terminology locked by a single glossary, and every code block
 byte-identical to the original. The links are checked against the built
 book (285 anchors), the structure mirrors the upstream repo file-for-file,
-and the license travels with the text. Four upstream link defects were
-repaired along the way - each one recorded in the verifier. Built for the
-Thai-speaking student of Wasm instrumentation:
+and the license travels with the text. Five upstream defects were repaired
+along the way - four broken links and one mislabeled heading - each one
+recorded in the verifier. Built for the Thai-speaking student of Wasm
+instrumentation:
 [suradet-ps.github.io/whamm-th](https://suradet-ps.github.io/whamm-th/).
 
 | แปลครบ 41 บท ▣ | Glossary ▣ | ลิงก์ 285/285 ▣ | Build ผ่าน ▣ |
@@ -91,8 +92,8 @@ One stack, zero custom JS, several quiet helpers.
   nine agrees with chapter two.
 - **Verifies** - `scripts/verify-translation.ps1` diffs every code
   block, heading level, and link target against upstream `whamm` -
-  byte-exact or it does not pass, with four documented upstream fixes
-  printed on every run.
+  byte-exact or it does not pass, with the link-level upstream fixes
+  printed on each run.
 - **Checks** - `scripts/check-links.ps1` walks the built book and
   resolves every anchor link against real heading ids - 285 of them,
   all reachable.
