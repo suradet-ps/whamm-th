@@ -1,6 +1,6 @@
 # ฟังก์ชัน #
 
-หมายเหตุ: ฟังก์ชันนี้ยังไม่ถูกพัฒนาเสร็จสมบูรณ์! จะมีเอกสารเพิ่มเติมหลังการพัฒนา!
+หมายเหตุ: ฟังก์ชันนี้ยังพัฒนาไม่เสร็จสมบูรณ์! จะมีเอกสารเพิ่มเติมตามมาหลังการพัฒนา!
 
 [//]: # (Functions are essential in programming as they enable code modularity, reuse, and organization. By encapsulating specific tasks into discrete units, functions allow developers to write cleaner, more manageable code. They promote code reuse by allowing the same block of code to be executed from multiple places within a program, reducing redundancy and potential for errors, as well as enhancing readability and maintainability. )
 
