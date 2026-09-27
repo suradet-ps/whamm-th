@@ -1,20 +1,13 @@
 ﻿# whamm-th
 
-```
-██╗    ██╗██╗  ██╗ █████╗ ███╗   ███╗███╗   ███╗         ████████╗██╗  ██╗
-██║    ██║██║  ██║██╔══██╗████╗ ████║████╗ ████║         ╚══██╔══╝██║  ██║
-██║ █╗ ██║███████║███████║██╔████╔██║██╔████╔██║   █████╗   ██║   ███████║
-██║███╗██║██╔══██║██╔══██║██║╚██╔╝██║██║╚██╔╝██║   ╚════╝   ██║   ██╔══██║
-╚███╔███╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║            ██║   ██║  ██║
- ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝            ╚═╝   ╚═╝  ╚═╝
-```
+[![Deploy](https://github.com/suradet-ps/whamm-th/actions/workflows/docs.yml/badge.svg)](https://github.com/suradet-ps/whamm-th/actions/workflows/docs.yml)
+[![GitHub Pages](https://img.shields.io/badge/Pages-live-2ea44f)](https://suradet-ps.github.io/whamm-th/)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE-APACHE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/suradet-ps/whamm-th/issues)
 
 ---
 
 ## ◆ PULSE
-
-[![GitHub Pages](https://img.shields.io/badge/Pages-live-2ea44f)](https://suradet-ps.github.io/whamm-th/)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](#-anatomy)
 
 A Wasm program has a first opcode, and a dynamic analysis has a first probe -
 whamm-th is the Thai bridge to that exact moment. This is the complete Thai
